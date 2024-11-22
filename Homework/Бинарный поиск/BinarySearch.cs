@@ -8,5 +8,6 @@ namespace Homework.Бинарный_поиск
 {
     internal class BinarySearch
     {
+        int[] arrray = new int[5];
     }
 }
