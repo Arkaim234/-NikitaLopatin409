@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfDeadLockusing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Deadlock Demo" Height="250" Width="400">
+    <Grid Margin="10">
+        <StackPanel>
+            <Button Content="Загрузить (Deadlock)" Click="DeadlockButton_Click" Margin="5"/>
+            <Button Content="Загрузить (Без deadlock)" Click="NoDeadlockButton_Click" Margin="5"/>
+            <TextBlock x:Name="ResultText" Margin="5" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
